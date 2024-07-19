@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Lesson 06 - Tabelas</title>
+	</head>
+	<body>
+		<a href="./index.html">Home</a>
+		<hr>
+		<h2>Tabelas</h2>
+		<p>
+			Utilizasse a tag <strong>table(criar uma tabela)</strong>, <strong>tr(table row)</strong> e <strong>td(table data)</strong>.
+			Outra tag utilizada é a tag <strong>th(table header)</strong>.
+		</p>
+		<p>Atributos:</p>
+		<ul>
+			<li><strong>border:</strong> tamanho da borda em pixel</li>
+			<li><strong>width:</strong> tamanho da largura da coluna ou da linha.</li>
+			<li><strong>rowspan:</strong> tamanho relativo de linhas que a informação ocupa</li>
+			<li><strong>colspan:</strong> tamanho relativo de colunas que a informação ocupa</li>
+		</ul>
+		<h3>Exemplo</h3>
+		<table border="1">
+			<tr>
+				<td>(0,0)</td>
+				<td>(0,1)</td>
+			</tr>
+			<tr>
+				<td>(1,0)</td>
+				<td>(1,1)</td>
+			</tr>
+		</table>
+		<br>
+		<table border="1" align="center">
+			<tr>
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Notebook</td>
+				<td>R$ 2.500,00</td>
+			</tr>
+			<tr>
+				<td rowspan="2">
+					Desconto
+				</td>
+				<td colspan="2">
+					 cupom01 -R$10,00
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">cupom02 -R$12,00</td>
+			</tr>
+		</table>
+		<br>
+		<p>O atributo width pode coloca um valor em pixel ou em porcentagem com o tamanho de espaço do navegador.
+		Pode colcocar links, imagens...</p>
+		<h4>Exemplo</h4>
+		<ul>
+			<li>400px</li>
+			<li>80%</li>
+		</ul>
+		<table border="2" width="50%">
+			<tr>
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Preço</th>
+			</tr>
+			<tr>
+				<td>001</td>
+				<td>Notebook</td>
+				<td>R$ 2.500,00</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><img src="images/ferrari.jpg" width="200px"></td>
+				<td><a href="./lesson05.html">Lesson 05 - Links</a></td>
+			</tr>
+		</table>
+	</body>
+</html>

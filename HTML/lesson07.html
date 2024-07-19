@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Lesson 07 - Formulario</title>
+	</head>
+	<body>
+		<a href="./index.html">Home</a>
+		<hr>
+		<h2>Formulaŕios</h2>
+		<p>Para criar um formulario utilizasse a tag <strong>form</strong>.Ele possui dentro dele caixa de texto, botões e entre outros</p>
+		<p>Componentes de formulario</p>
+		<ul>
+			<li>input(type, name, value)</li>
+		</ul>
+		<br>
+		<p>Tipos de input:</p>
+		<ul>
+			<li>text</li>
+			<li>password</li>
+			<li>button</li>
+			<li>submit</li>
+			<li>radio</li>
+			<li>checkbox</li>
+		</ul>
+		<p>Existe a tag <strong>select</strong> que permite que você escolha uma opção dentre varias</p>
+		<h3>Exemplo</h3>
+		<h4>Login</h4>
+		<form>
+			Login:<br>
+			<input type="text" name="user"><br> <!-- name é como é salvando os dados que o usuário digitou-->
+			Senha:<br>
+			<input type="password" name="password"><br>
+			<input type="button" name="" value="Logar"><br>
+		</form>
+		<h2>Cadastre-se</h2>
+		<form>
+			Login:<br>
+			<input type="text" name="login_cad"><br>
+			sexo:<br>
+			<input type="radio" name="sexo" value="M"> Masculino<br>
+			<input type="radio" name="sexo"m value="F"> Feminino<br>
+			<br>
+			Interesses:<br>
+			<input type="checkbox" name=""> Futebol<br>
+			<input type="checkbox" name=""> Basquete<br>
+			<input type="checkbox" name=""> Estudar<br>
+			<br><br>
+			Estado<br>
+			<select name="estado">
+				<option>SP</option>
+				<option>RJ</option>
+				<option>MG</option>
+				<option>ES</option>
+				<option>PR</option>
+			</select>
+
+			<br><br>
+			Obsevações:<br>
+			<textarea></textarea>
+			<br><br>
+			<input type="submit" name="enviar" value="enviar">
+		</form>
+	</body>
+</html>
